@@ -14,3 +14,5 @@ class WebsiteUser(HttpUser):
     @task(1)
     def about(self):
         self.client.get("/event/66782")
+
+        ##
